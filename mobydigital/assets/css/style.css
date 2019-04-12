@@ -1,0 +1,263 @@
+.container-fluid-customized{
+  padding-left: unset;
+  padding-right: unset;
+  margin: unset;
+}
+
+#header{
+  background-color: #252934;
+}
+
+#navbar{
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+#navbar-logo{
+  width: 140px;
+}
+
+#header-banner{
+  background-color: #252934;
+  background-image: url('../../img/banner.svg');
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-position: 36% 0;
+  background-size: contain;
+  overflow: hidden;
+  padding-top: 12%;
+}
+
+#header-banner p{
+  font-size: 6.9rem;
+  line-height: 64px;
+  color: #f3f3ef;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#header-banner p:nth-child(1){
+  padding-left: 45px;
+}
+
+#header-banner p:nth-child(2){
+  padding-left: 61px;
+}
+
+#header-banner p:nth-child(4){
+  padding-left: 98px;
+}
+
+#header-banner span{
+  color: #f73523;
+}
+
+#about-us::before{
+  content: "";
+  background-image: url('../../img/section-before.svg');
+  background-position: top;
+  background-repeat: repeat-x;
+  display: block;
+  height: 100px;
+  margin-top: -11px;
+}
+
+#about-us::after{
+  content: "";
+  background-image: url('../../img/section-pattern-2.svg');
+  background-repeat: repeat-x;
+  display: block;
+  height: 178px;
+}
+.row-about-us-customized{
+  height: 325px;
+}
+
+.section:nth-of-type(even) {
+  background-color: #f3f3ef;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #252934;
+}
+
+.header-container{
+  text-align: right;
+  width: 62.5%;
+}
+
+h2{
+  color: #252934;
+  font-size: 48px;
+  font-family: Poppins-Thin, sans-serif;
+  line-height: 15px;
+  font-weight: 100;
+  z-index: 1;
+}
+
+h2.header-dark{
+  color: #fff;
+  width: 70.5%;
+}
+
+.header-container span{
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 70px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+
+.header-container p:nth-child(1){
+  text-align: left;
+  padding-left: 22%;
+}
+
+.header-bg-square{
+  height: 245px;
+  width: 245px;
+  box-shadow: 7px -1px 10px 0px #0000001f;
+  background: #58acd1;
+  position: absolute;
+  right: 45%;
+}
+
+.bg-square{
+  position: absolute;
+  width: 40px;
+  height: 14px;
+  bottom: 0;
+}
+
+.bg-square-right{
+  background-color: #252934;
+  right: -20px;
+}
+
+.bg-square-left{
+  background-color: #f3f3ef;
+  left: -20px;
+}
+
+.box-x{
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.box-x-2{
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#about-us-content p{
+  color: #252934;
+}
+
+.section-dark p, .section-dark aside{
+  color: #f3f3ef;
+}
+
+aside{
+  font-size: 30px;
+  padding: 5%;
+}
+
+#about-us-content span{
+  background-color: #f73523;
+  cursor: pointer;
+}
+
+#about-us-footer img{
+  position: absolute;
+  left: 33%;
+}
+
+#about-us-footer h3{
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.row-about-us-footer-customized{
+  height: 386px;
+  padding-bottom: 11%;
+}
+
+/* Media Queries*/
+
+@media (max-width: 425px){
+  #header-banner{
+    min-height: 100px;
+  }
+
+  #header-banner p{
+    font-size: 2rem;
+    line-height: 18px;
+  }
+  footer{
+    text-align: center;
+  }
+  #about-us-footer img{
+    position: static;
+    height: 150px;
+  }
+  .row-about-us-customized, .row-about-us-footer-customized{
+    height: unset;
+  }
+  .header-container{
+    line-height: 0;
+    font-size: 30px;
+    text-align: left;
+  }
+  .header-container p:nth-child(1){
+    padding-left: unset;
+  }
+  .header-container span{
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 768px){
+  #header-banner{
+  min-height: 100px;
+  }
+
+  #header-banner p{
+    font-size: 2.2rem;
+    line-height: 20px;
+  }
+
+  footer{
+    text-align: center;
+  }
+  #about-us-footer img{
+    position: static;
+    height: 250px;
+  }
+  .row-about-us-customized, .row-about-us-footer-customized{
+    height: unset;
+  }
+  .header-container{
+    line-height: 0;
+    font-size: 30px;
+    text-align: left;
+  }
+  .header-container p:nth-child(1){
+    padding-left: unset;
+  }
+  .header-container span{
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 1024px){
+  #about-us-footer img{
+    left: 10%;
+    height: 250px;
+  }
+
+  footer{
+    text-align: center;
+  }
+}

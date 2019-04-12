@@ -1,0 +1,386 @@
+/********** General Style *********/
+.container-fluid-customized{
+  padding-left: 0;
+  padding-right: 0;
+}
+body, .primary-color{
+  background-color: #0155fe; /* Primary Color */
+}
+
+.secondary-color, section:nth-child(even){
+  background-color: #fff;
+}
+/*********************************/
+
+
+/********** Common Style *********/
+.txt-primary{
+  color: #0155fe;
+}
+
+.txt-secondary{
+  color: #fff;
+}
+
+.bold{
+  font-family: font-Bold, sans-serif;
+}
+
+.regular{
+  font-family: font-Regular, serif;
+}
+
+.space{
+  margin: 10px 0;
+}
+/*********************************/
+
+
+/********** Header Style *********/
+#header{
+  position: relative;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#header video{
+  position: absolute;
+  z-index: 0;
+}
+
+header .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+#navbar{
+  text-align: center;
+  padding-top: 70px;
+}
+
+article#container-header h1{
+  font-size: 47px;
+  margin-bottom: 20px;
+}
+
+article#container-header p{
+  font-size: 36px;
+}
+
+.my-button{
+  font-size: 20px;
+  margin-top: 120px;
+  padding: 13px 84px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+    /* HEADER @Media Queries *****/
+    @media (pointer: coarse) and (hover: none) {
+      #header{
+        background: url('../img/video-bg-still.jpg') no-repeat center center scroll;
+      }
+      #header video{
+        display: none;
+      }
+    }
+
+    @media (max-width: 767px){
+      article#container-header h1{
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+      article#container-header p{
+        font-size: 18px;
+      }
+      .my-button{
+        margin-top: 100px;
+      }
+    }
+
+    @media (max-width: 348px){
+      .my-button{
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+    /*****************************/
+
+/*********************************/
+
+
+/********** Store Style **********/
+section#store{
+  padding-top: 150px;
+}
+
+section#store h2{
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+
+section#store p{
+  font-size: 29px;
+}
+
+    /*STORE @Media Queries *******/
+    @media (min-width: 1200px) and (max-width: 1287px){
+      .store-container-download img{
+        width: 180px !important;
+      }
+    }
+
+    @media (max-width: 1199px){
+      .store-container-text{
+        width: 100% !important;
+      }
+      #store{
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 767px){
+      section#store{
+        padding-top: 60px;
+        text-align: center;
+      }
+      .store-container-text{
+        width: unset !important;
+      }
+      .store-container-download{
+        margin-top: 60px;
+        margin-bottom: 20px;
+      }
+      .store-container-download img{
+        width: 130px;
+      }
+      section#store h2{
+        font-size: 24px;
+      }
+      section#store p{
+        font-size: 18px;
+      }
+      img[alt=phones]{
+        width: 100%;
+      }
+    }
+
+
+
+    /*****************************/
+
+/*********************************/
+
+
+/********** Features Style ******/
+
+section#features{
+  padding-top: 130px;
+  padding-bottom: 200px;
+}
+
+section#features h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+section#features p{
+  font-size: 26px;
+}
+
+section#features .row-icons{
+  margin-top: 160px;
+}
+
+.features-container-icon{
+  background-color: #4d88fe;
+  border-radius: 50%;
+  padding: 40px;
+  border: unset;
+}
+
+.features-container-icon img{
+  height: 100px;
+  width: 100px;
+}
+
+.col-customized p{
+  font-size: 19px;
+  margin-top: 5%;
+}
+
+    /*FEATURES @Media Queries ****/
+    @media (max-width: 767px){
+      section#features{
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      section#features h2{
+        font-size: 24px;
+        margin-bottom: unset;
+      }
+      section#features p{
+        font-size: 18px;
+      }
+      section#features .row-icons{
+        margin-top: 60px;
+      }
+      .features-container-icon{
+        padding: 20px;
+      }
+
+      .features-container-icon img{
+        height: 40px;
+        width: 40px;
+      }
+      .col-customized p{
+        font-size: 20px !important;
+        margin: 3% 0;
+      }
+    }
+    /****************************/
+
+/********************************/
+
+
+/************* Payoff *************/
+section#payoff{
+  padding: 140px 0;
+}
+
+section#payoff .row{
+  height: 100vh;
+  z-index: 0;
+}
+
+section#payoff h1{
+  font-size: 100px;
+  z-index: 1;
+}
+
+section#payoff span{
+  color: black;
+}
+
+section#payoff img{
+  position: absolute;
+  z-index: -1;
+}
+
+section#payoff img[alt=cinema]{
+  top: 0%;
+  left: 10%;
+}
+
+section#payoff img[alt=drink]{
+  right: 20%;
+  bottom: 0;
+}
+
+    /*PAYOFF @Media Queries *****/
+    @media (max-width: 1440px){
+      section#payoff img{
+        height: 300px;
+      }
+
+      section#payoff img[alt=cinema]{
+        left: 0;
+        top: -8%;
+      }
+
+      section#payoff img[alt=drink]{
+        height: 380px;
+        right: 0;
+      }
+    }
+
+    @media (max-width: 767px){
+      section#payoff{
+        padding-top: 60px;
+        padding-bottom: 160px;
+      }
+      section#payoff h1{
+        font-size: 55px;
+      }
+      section#payoff .row{
+        height: 80vh;
+      }
+      section#payoff img{
+        height: 200px;
+      }
+      section#payoff img[alt=cinema]{
+        left: 10%;
+      }
+
+      section#payoff img[alt=drink]{
+        height: 300px;
+        right: 10%;
+      }
+    }
+
+    @media (max-width: 375px){
+      section#payoff img{
+        height: 130px;
+      }
+      section#payoff img[alt=drink]{
+        height: 200px;
+      }
+    }
+    /****************************/
+
+/*********************************/
+
+
+/*********** Contact-Us **********/
+section#contact-us{
+  padding: 80px 0;
+}
+
+#contact-us h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact-us button{
+  margin-top: 20px;
+}
+
+input[type=email], input[type=password]{
+  box-shadow: 0px 4px 0px 0px #3F51B5;
+}
+/*********************************/
+
+
+/*********** Contact-Us **********/
+footer#footer{
+  background-color: black;
+  padding: 130px 0;
+}
+
+#footer p{
+  margin-bottom: 0;
+  color: lightgrey;
+}
+
+.social-icon{
+  margin-top: 50px;
+}
+
+    /*FOOTER @Media Queries *****/
+    @media (max-width: 767px){
+      footer#footer{
+        padding: 120px 0;
+      }
+    }
+    /****************************/
+
+/*********************************/

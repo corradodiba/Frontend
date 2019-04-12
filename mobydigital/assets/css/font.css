@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Black.ttf') format('truetype'),
+       url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Light.ttf') format('truetype'),
+       url('../fonts/Poppins-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('../fonts/Poppins-Thin.ttf') format('truetype'),
+       url('../fonts/Poppins-Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

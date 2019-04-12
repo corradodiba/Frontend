@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'font-Regular';
+  src: url('../fonts/WorkSans-Regular.ttf') format('truetype'),
+       url('../fonts/WorkSans-Regular.woff') format('woff'),
+       url('../fonts/WorkSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font-Bold';
+  src: url('../fonts/WorkSans-Bold.ttf') format('truetype'),
+       url('../fonts/WorkSans-Bold.woff') format('woff'),
+       url('../fonts/WorkSans-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
